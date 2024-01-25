@@ -1,14 +1,15 @@
 #container{
   display: flex;
+  flex-wrap: wrap;
   width: 500px;
   height: 500px;
   border-style: solid;
   border-color: black;
-  border-width: 5px;
 }
 
 .square{
   display: flex;
+  box-sizing: border-box;
   border-style: solid;
   border-color: black;
   border-width: 1px;

@@ -13,5 +13,13 @@
   border-style: solid;
   border-color: black;
   border-width: 1px;
-  color: white;
+  background-color: white;
+}
+
+.blackSquare{
+  background-color: black;
+}
+
+#gridSelector{
+  margin: 20px;
 }
